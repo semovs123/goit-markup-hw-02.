@@ -1,0 +1,139 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+:root {
+  --primary-color: #757575;
+  --secondary-color: #212121;
+  --white-color: #ffffff;
+  --accent-color: #2196f3;
+  --background-color-footer: #2f303a;
+  --backgroud-color-button: #f5f4fa;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.46;
+  color: var(--primary-color);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.46;
+  color: var(--secondary-color);
+}
+/* Logo */
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--secondary-color);
+}
+.logo > span {
+  color: var(--accent-color);
+}
+/* navigation */
+.nav a,
+.contacts a {
+  color: var(--secondary-color);
+  line-height: 1.14;
+}
+.nav a:hover,
+.nav a:focus,
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--accent-color);
+}
+nav .active-pages {
+  color: var(--accent-color);
+}
+/* heroy */
+.hero h1 {
+  color: var(--white-color);
+  background-color: var(--background-color-footer);
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+}
+.hero button {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+}
+/* преимущества */
+.advantage h3 {
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--secondary-color);
+}
+.advantage p {
+  line-height: 1.76;
+}
+/* Чем мы занимаемся */
+.work h2,
+.command h2 {
+  color: var(--secondary-color);
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.36;
+}
+/* Наша команда */
+.command h3 {
+  color: var(--secondary-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+}
+.command p {
+  font-size: 16px;
+  line-height: 1.18;
+}
+/* Футер */
+.footer {
+  background-color: var(--background-color-footer);
+}
+.footer p {
+  color: var(--white-color);
+}
+.footer a {
+  color: rgba(255, 255, 255, 0.6);
+}
+/* Портфолио */
+.galary a {
+  color: var(--secondary-color);
+  background-color: var(--backgroud-color-button);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.galary a:hover, .galary a:focus{
+color: var(--white-color);
+background-color: var(--accent-color);
+}
+.galary button:hover, .galary button:focus{
+        background-color: var(--accent-color);    
+}
+.galary-poster h3{
+        font-size: 18px;
+        font-weight: bold;
+        line-height: 2;
+        color: var(--secondary-color);
+}
+.galary-poster p{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.9;
+       
+}
