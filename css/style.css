@@ -40,8 +40,10 @@ button {
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+  font-style: normal;
   font-size: 26px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
 .logo > span {
@@ -52,7 +54,9 @@ button {
 .contacts a {
   color: var(--secondary-color);
   font-weight: 500;
+  font-style: normal;
   line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav a:hover,
 .nav a:focus,
@@ -72,14 +76,16 @@ nav .active-pages {
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
+  letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
 }
-.hero button {
+.hero-button {
   color: var(--white-color);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
+  letter-spacing: 0.06em;
   line-height: 1.8;
 }
 /* преимущества */
@@ -87,12 +93,14 @@ nav .active-pages {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
+  letter-spacing: 0.03em;
   color: var(--secondary-color);
   text-transform: uppercase;
 }
 .advantage p {
+  letter-spacing: 0.03em;
   line-height: 1.76;
- }
+}
 /* Чем мы занимаемся */
 .work h2,
 .command h2 {
@@ -100,6 +108,8 @@ nav .active-pages {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* Наша команда */
 .command {
@@ -109,11 +119,20 @@ nav .active-pages {
   color: var(--secondary-color);
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.03em;
   line-height: 1.9;
+  text-align: center;
 }
 .command p {
   font-size: 16px;
   line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.command h3,
+.command p {
+  margin: 0;
+  background-color: var(--white-color);
 }
 /* Футер */
 .footer {
@@ -125,10 +144,16 @@ nav .active-pages {
 .footer p {
   color: var(--white-color);
   font-style: normal;
+  letter-spacing: 0.03em;
 }
 address a {
   font-style: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 /* Портфолио */
 .galary button {
@@ -137,7 +162,9 @@ address a {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.6;
-  margin: 5px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 1px;
 }
 .galary button:hover,
 .galary button:focus {
@@ -147,11 +174,16 @@ address a {
 .galary-title {
   font-size: 18px;
   font-weight: bold;
+  letter-spacing: 0.06em;
   line-height: 2;
   color: var(--secondary-color);
 }
 .galary-text {
   font-size: 16px;
   line-height: 1.9;
+  letter-spacing: 0.03em;
   color: var(--primary-color);
+}
+.no-shadow {
+  text-shadow: none;
 }
