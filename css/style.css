@@ -7,12 +7,14 @@ font-family: 'Roboto', sans-serif; */
   --accent-color: #2196f3;
   --background-color-footer: #2f303a;
   --backgroud-color-button: #f5f4fa;
+  --backgroud-color-work: #f5f4fa;
 }
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.46;
+  font-style: normal;
   color: var(--primary-color);
 }
 ul {
@@ -62,13 +64,16 @@ nav .active-pages {
   color: var(--accent-color);
 }
 /* heroy */
+.hero {
+  background-color: var(--background-color-footer);
+}
 .hero h1 {
   color: var(--white-color);
-  background-color: var(--background-color-footer);
   font-size: 44px;
   font-weight: 900;
   line-height: 1.36;
   text-align: center;
+  text-transform: uppercase;
 }
 .hero button {
   color: var(--white-color);
@@ -83,10 +88,11 @@ nav .active-pages {
   font-size: 14px;
   line-height: 1.2;
   color: var(--secondary-color);
+  text-transform: uppercase;
 }
 .advantage p {
   line-height: 1.76;
-}
+ }
 /* Чем мы занимаемся */
 .work h2,
 .command h2 {
@@ -96,6 +102,9 @@ nav .active-pages {
   line-height: 1.36;
 }
 /* Наша команда */
+.command {
+  background-color: var(--backgroud-color-work);
+}
 .command h3 {
   color: var(--secondary-color);
   font-weight: 500;
@@ -115,8 +124,10 @@ nav .active-pages {
 }
 .footer p {
   color: var(--white-color);
+  font-style: normal;
 }
 address a {
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
 /* Портфолио */
@@ -133,13 +144,14 @@ address a {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
-.galary-poster h3 {
+.galary-title {
   font-size: 18px;
   font-weight: bold;
   line-height: 2;
   color: var(--secondary-color);
 }
-.galary-poster p {
+.galary-text {
   font-size: 16px;
   line-height: 1.9;
+  color: var(--primary-color);
 }
