@@ -90,7 +90,7 @@ nav .active-pages {
   letter-spacing: 0.06em;
   line-height: 1.8;
 }
-..hero-button:hover, .hero-button:focus{
+.hero-button:hover, .hero-button:focus{
   background-color: var(--button-hover);
 }
 /* преимущества */
